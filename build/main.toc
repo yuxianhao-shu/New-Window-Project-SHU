@@ -1,0 +1,23 @@
+\contentsline {chapter}{摘\hspace {\ccwd }要}{I}{section*.2}%
+\contentsline {chapter}{ABSTRACT}{II}{section*.4}%
+\contentsline {chapter}{主要符号表}{IV}{section*.7}%
+\contentsline {chapter}{\numberline {第一章}模板介绍}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}模板说明}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}目录内容}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}模板使用}{2}{section.1.3}%
+\contentsline {chapter}{\numberline {第二章}表格和插图}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}表格}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}插图}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}多子图}{4}{section.2.3}%
+\contentsline {chapter}{\numberline {第三章}数学和定理环境}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}数学宏包}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}定理类环境}{5}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}\textsc {ShuThesis}\ 预定义的定理类环境}{5}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}算法伪代码环境}{7}{section.3.3}%
+\contentsline {chapter}{\numberline {第四章}参考文献}{8}{chapter.4}%
+\contentsline {chapter}{插图索引}{9}{section*.15}%
+\contentsline {chapter}{表格索引}{10}{section*.17}%
+\contentsline {chapter}{参考文献}{11}{section*.19}%
+\contentsline {chapter}{攻读博士学位期间取得的研究成果}{12}{section*.21}%
+\contentsline {chapter}{致\hspace {\ccwd }谢}{13}{section*.23}%
+\contentsline {chapter}{\numberline {附录 A}经典不等式}{14}{appendix.A}%
