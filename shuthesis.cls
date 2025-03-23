@@ -238,14 +238,14 @@
   \renewcommand{\footrulewidth}{0pt}}
 \fancypagestyle{shu@headings}{%
   \fancyhead{}
-  \fancyhead[L]{\xiaowu 上海大学\shu@cdegree 学位论文}
+  \fancyhead[L]{\xiaowu 挑战杯成果册}
   \fancyfoot{}
   \fancyfoot[C]{\wuhao\thepage}
   \renewcommand{\headrulewidth}{0.4pt}
   \renewcommand{\footrulewidth}{0pt}}
 \fancypagestyle{shu@onlyhead}{%
   \fancyhead{}
-  \fancyhead[L]{\xiaowu 上海大学\shu@cdegree 学位论文}
+  \fancyhead[L]{\xiaowu 挑战杯成果册}
   \renewcommand{\headrulewidth}{0.4pt}}
 \ctexset{%
   space=auto,
@@ -445,11 +445,12 @@
 \shu@parse@keywords{ekeywords}{shu@ekeywords@separator}
 \def\shusetup{\kvsetkeys{shu}}
 
-\def\shu@first@page{\renewcommand{\ULthickness}{1.8pt}%
- {\noindent\ifxetex\XBSong\else\bfseries\songti\fi%
- 中图分类号：{\bfseries\shu@catalognumber}\hfill 单位代号：{\bfseries 10280\hphantom{000}}\\
- 密\hphantom{空白空}级：\expandafter\ifshu@secret\shu@secret@content\else%
- \shu@secretlevel\fi\hfill 学\hphantom{空白}号：{\bfseries\shu@id}}
+\def\shu@first@page{%  % 注意此处行末的 %
+  \renewcommand{\ULthickness}{1.8pt}%
+  {\noindent\ifxetex\XBSong\else\bfseries\songti\fi%
+    单位代号：{\bfseries 10280}\hfill 密\hphantom{空}级：%
+    \expandafter\ifshu@secret\shu@secret@content\else\shu@secretlevel\fi%
+  }%  % 闭合内部括号
  \par\vskip1mm
  \noindent\uline{\hskip105mm}\par\vskip2mm
    \ifshu@nocolor
@@ -460,19 +461,19 @@
    \raisebox{1ex}[0pt][0pt]{
    \includegraphics[height=3cm,width=9.8cm]{shu.pdf}}\hskip5mm
    \includegraphics[height=3.3cm,width=2.7cm]{shulogo.pdf}\fi\par\vskip5mm
-   \centerline{\maxsize\ifxetex\LanTingHei\else\bfseries\heiti\fi\shu@cdegree 学位论文}
+   \centerline{\maxsize\ifxetex\LanTingHei\else\bfseries\heiti\fi 挑战杯成果册}
  \par\vskip-1mm
  \noindent\uline{\hskip\linewidth}\par\vskip1mm
  {\zihao{-1}\bfseries
   \centerline{SHANGHAI~~UNIVERSITY}
   \ifshu@profmaster
-    \centerline{PROFESSIONAL~~MASTER'S}
-    \centerline{DISSERTATION}
+    \centerline{Challenge Cup Achievements Compendium}
+    \centerline{Challenge Cup Achievements Compendium}
   \else
     \ifshu@doctor
-    \centerline{DOCTORAL~~DISSERTATION}
+    \centerline{Challenge Cup Achievements Compendium}
     \else
-      \centerline{\MakeUppercase{\shu@edegree}'S~~DISSERTATION}
+      \centerline{Challenge Cup Achievements Compendium}
     \fi
   \fi}
  \begin{center}
@@ -497,7 +498,7 @@
   {\heiti\xiaoer[1.9]
   \begin{tabular}{cc}
     \makebox[4em][s]{作者}          & \uline{\kaishu\makebox[12em]{\shu@cauthor}}\\
-    \makebox[4em][s]{学科专业}      & \uline{\kaishu\makebox[12em]{\shu@cmajor}}\\
+    \makebox[4em][s]{申报学院}      & \uline{\kaishu\hfill 环境与化学工程学院\hfill}\\
     \makebox[4em][s]{导师}          & \uline{\kaishu\makebox[12em]{\shu@csupervisor}}\\
     \makebox[4em][s]{完成日期}      & \uline{\kaishu\makebox[12em]{\shu@coverdate}}\\
   \end{tabular}}

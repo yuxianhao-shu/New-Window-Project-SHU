@@ -1,0 +1,80 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[刘全\ 等(2018)刘全, 翟建伟, 章宗长, 钟珊, 周倩, 章鹏, and 徐进]{drl_2018}
+刘全, 翟建伟, 章宗长, 等.
+\newblock 深度强化学习综述\allowbreak[J].
+\newblock 计算机学报, 2018, 41\allowbreak (1): 1-27.
+
+\bibitem[Narasimhan et~al.(2015)Narasimhan, Kulkarni, and Barzilay]{narasimhan_language_2015}
+NARASIMHAN K, KULKARNI T, BARZILAY R.
+\newblock Language understanding for text-based games using deep reinforcement learning\allowbreak[J/OL].
+\newblock {CoRR}, 2015, {arXiv}:1506.08941 [cs]\allowbreak[2018-12-31].
+\newblock \url{http://arxiv.org/abs/1506.08941}.
+
+\bibitem[Knuth(1989)]{tex1989}
+KNUTH D~E.
+\newblock The {\TeX} book\allowbreak[M].
+\newblock 15th ed.
+\newblock Reading, MA: Addison-Wesley Publishing Company, 1989.
+
+\bibitem[聂灵沼\ 等(2000)聂灵沼 and 丁石孙]{algebra2000}
+聂灵沼, 丁石孙.
+\newblock 代数学引论\allowbreak[M].
+\newblock 北京: 高等教育出版社, 2000.
+
+\bibitem[Nikiforov(2014)]{nikiforov2014}
+NIKIFOROV V.
+\newblock Analytic methods for uniform hypergraphs\allowbreak[J].
+\newblock Linear Algebra and its Applications, 2014, 457: 455-535.
+
+\bibitem[Bu et~al.(2016)Bu, Fan, and Zhou]{BuFanZhou2016:Z-eigenvalues}
+BU C, FAN Y, ZHOU J.
+\newblock Laplacian and signless {L}aplacian {Z}-eigenvalues of uniform hypergraphs\allowbreak[J].
+\newblock Frontiers of Mathematics in China, 2016, 11\allowbreak (3): 511-520.
+
+\bibitem[Hu et~al.(2013)Hu, Qi, and Shao]{HuQiShao2013:Cored-Hypergraphs}
+HU S, QI L, SHAO J.
+\newblock Cored hypergraphs, power hypergraphs and their {L}aplacian {H}-eigenvalues\allowbreak[J/OL].
+\newblock Linear Algebra and its Applications, 2013, 439: 2980-2998.
+\newblock DOI: \doi{10.1016/j.laa.2013.08.028}.
+
+\bibitem[Kang et~al.(2014)Kang and Nikiforov]{KangNikiforov2014:Extremal-Problems}
+KANG L, NIKIFOROV V.
+\newblock Extremal problems for the $p$-spectral radius of graphs\allowbreak[J].
+\newblock Electronic Journal of Combinatorics, 2014, 21\allowbreak (3): P3.21.
+
+\bibitem[Lin et~al.(2016)Lin and Zhou]{LinZhou2016:Distance-Spectral}
+LIN H, ZHOU B.
+\newblock Distance spectral radius of uniform hypergraphs\allowbreak[J/OL].
+\newblock Linear Algebra and its Applications, 2016, 506: 564-578.
+\newblock DOI: \doi{10.1016/j.laa.2016.06.011}.
+
+\bibitem[Lu et~al.(2016)Lu and Man]{LuMan2016:Small-Spectral-Radius}
+LU L, MAN S.
+\newblock Connected hypergraphs with small spectral radius\allowbreak[J/OL].
+\newblock Linear Algebra and its Applications, 2016, 509: 206-227.
+\newblock DOI: \doi{10.1016/j.laa.2016.07.013}.
+
+\bibitem[Nikiforov(2017)]{Nikiforov2017:Symmetric-Spectrum}
+NIKIFOROV V.
+\newblock Hypergraphs and hypermatrices with symmetric spectrum\allowbreak[J/OL].
+\newblock Linear Algebra and its Applications, 2017, 519: 1-18.
+\newblock DOI: \doi{10.1016/j.laa.2016.12.038}.
+
+\bibitem[Qi(2014)]{Qi2014:H-Plus-Eigenvalues}
+QI L.
+\newblock H$^+$-eigenvalues of {L}aplacian and signless {L}aplacian tensors\allowbreak[J].
+\newblock Communications in Mathematical Sciences, 2014, 12\allowbreak (6): 1045-1064.
+
+\end{thebibliography}
